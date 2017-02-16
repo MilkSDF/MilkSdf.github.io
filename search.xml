@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    
+    <entry>
+      <title><![CDATA[lsof查看端口占用]]></title>
+      <url>%2F2017%2F02%2F15%2Flsof%E6%9F%A5%E7%9C%8B%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%2F</url>
+      <content type="text"><![CDATA[lsofsudo lsof -nP -iTCP:端口号 -sTCP:LISTEN -n 表示不显示主机名 -P 表示不显示端口俗称 不加 sudo 只能查看以当前用户运行的程序]]></content>
+    </entry>
+
+    
+  
+  
+</search>
